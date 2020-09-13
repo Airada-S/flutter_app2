@@ -42,8 +42,7 @@ class _LoginState extends State<Login> {
                 height: 200,
               ),
               Padding(
-                padding: const EdgeInsets.only(
-                    left: 50, right: 50, top: 10, bottom: 0),
+                padding: const EdgeInsets.all(50),
                 child: TextField(
                   style: Theme.of(context).textTheme.headline5,
                   textAlign: TextAlign.center,
